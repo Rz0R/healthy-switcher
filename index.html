@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Main</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220706192238">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll="200" data-scroll-show class="header">
+			<div class="header__container">
+				<div class="logo"></div>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li data-goto=".top" class="menu__item"><a href="" class="menu__link">menu</a></li>
+							<li data-goto=".chefs" class="menu__item"><a href="" class="menu__link">chefs</a></li>
+							<li data-goto=".recipes" class="menu__item"><a href="" class="menu__link">recipes</a></li>
+							<li data-goto=".social" class="menu__item"><a href="" class="menu__link">social</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+
+			<section class="page__top top">
+				<div class="top__container">
+					<h1 class="top__title">
+						Your <span>favourite food</span> delivered <span>hot & fresh</span>
+					</h1>
+					<p class="top__description">
+						<span>healthy switcher</span> chefs do all the prep work, like peeling, chopping & marinating, so you can
+						cook a fresh
+						homemade
+						dinner in just 15 minutes.
+					</p>
+					<a href="#" class="top__button">order now</a>
+					<div class="top__cards contacts-cards">
+						<div class="contacts-card">
+							<div class="contacts-card__icon _icon-clock"></div>
+							<div class="contacts-card__description">
+								Today 10:00 am - 7:00 pm
+							</div>
+							<div class="contacts-card__title">Working hours</div>
+						</div>
+						<div class="contacts-card">
+							<div class="contacts-card__icon _icon-near_me"></div>
+							<div class="contacts-card__description">
+								Velyka Vasylkivska 100
+							</div>
+							<div class="contacts-card__title">Get Directions</div>
+						</div>
+						<div class="contacts-card">
+							<div class="contacts-card__icon _icon-phone"></div>
+							<div class="contacts-card__description">
+								+38 (063)833 24 15
+							</div>
+							<div class="contacts-card__title">Call Online</div>
+						</div>
+					</div>
+				</div>
+
+			</section>
+			<section class="page__about about">
+				<div class="about__container">
+					<div class="about__content">
+						<div class="about__title title">
+							<h2 class="title__text">
+								The Basics Of Healthy Food
+							</h2>
+							<div class="title__section-name">
+								about
+							</div>
+						</div>
+
+						<p class="about__text">
+							In aliqua ea ullamco ad est ex non deserunt nulla. Consectetur sint ea aliquip aliquip consectetur
+							voluptate est. Eu
+							minim dolore laboris enim mollit voluptate irure esse aliquip.
+						</p>
+
+						<div class="about__slider-wrapper">
+							<button type="button" class="about__button-prev swiper-button-prev"></button>
+							<!-- Оболочка слайдера -->
+							<div class="about__slider swiper">
+								<!-- Двигающееся часть слайдера -->
+								<div class="about__wrapper swiper-wrapper">
+									<!-- Слайд -->
+									<div class="about__slide swiper-slide">
+										<picture><source srcset="img/about/01.webp" type="image/webp"><img src="img/about/01.jpg" alt="slide"></picture>
+									</div>
+									<div class="about__slide swiper-slide"><picture><source srcset="img/about/02.webp" type="image/webp"><img src="img/about/02.jpg" alt=""></picture></div>
+								</div>
+							</div>
+							<button type="button" class="about__button-next swiper-button-next"></button>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="page__work work">
+				<div class="work__container">
+					<div class="work__title title title--with-underline">
+						<h2 class="title__text">
+							how it works
+						</h2>
+						<div class="title__section-name">
+							work
+						</div>
+					</div>
+
+					<div class="work__cards">
+						<div class="work__card work-card">
+							<div class="work-card__title">
+								pick meals
+							</div>
+
+							<div class="work-card__text">
+								Choose your meals from our diverse weekly menu. Find gluten or dairy free, low carb & veggie options.
+							</div>
+						</div>
+
+						<div class="work__card work-card">
+							<div class="work-card__title">
+								choose how often
+							</div>
+
+							<div class="work-card__text">
+								Our team of chefs do the prep work - no more chopping, measuring, or sink full of dishes!
+							</div>
+						</div>
+
+						<div class="work__card work-card">
+							<div class="work-card__title">
+								fast deliveries
+							</div>
+
+							<div class="work-card__text">
+								Your freshly prepped 15-min dinner kits arrive on your doorstep in a refrigerated box.
+							</div>
+						</div>
+
+						<div class="work__card work-card">
+							<div class="work-card__title">
+								fast deliveries
+							</div>
+
+							<div class="work-card__text">
+								Your freshly prepped 15-min dinner kits arrive on your doorstep in a refrigerated box.
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<section class="page__dish dish">
+				<div class="dish__container">
+					<div class="dish__title title title--with-underline">
+						<h2 class="title__text">
+							dish of the day
+						</h2>
+						<div class="title__section-name">
+							dishes
+						</div>
+					</div>
+					<div class="dish__cards">
+						<div class="dish-card">
+							<div class="dish-card__picture-ibg">
+								<picture><source srcset="img/dish/01.webp" type="image/webp"><img src="img/dish/01.jpg" alt="dish"></picture>
+								<a href="#" class="dish-card__share-bnt"></a>
+							</div>
+							<div class="dish-card__content">
+								<h2 class="dish-card__title">
+									Featured Meal
+								</h2>
+								<h3 class="dish-card__subtitle">
+									Served with french fries + drink
+								</h3>
+								<p class="dish-card__description">
+									Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add whopper patty, Add Tender crisp patty and
+									more...
+								</p>
+								<div class="dish-card__btns">
+									<div class="dish-card__rating rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div hidden class="rating__value">3.6</div>
+										<div class="rating__counter">12</div>
+									</div>
+									<a href="#" class="dish-card__order-btn">order</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="dish-card">
+							<div class="dish-card__picture-ibg">
+								<picture><source srcset="img/dish/02.webp" type="image/webp"><img src="img/dish/02.jpg" alt="dish"></picture>
+								<a href="#" class="dish-card__share-bnt"></a>
+							</div>
+							<div class="dish-card__content">
+								<h2 class="dish-card__title">
+									Featured Meal
+								</h2>
+								<h3 class="dish-card__subtitle">
+									Served with french fries + drink
+								</h3>
+								<p class="dish-card__description">
+									Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add whopper patty, Add Tender crisp patty and
+									more...
+								</p>
+								<div class="dish-card__btns">
+									<div class="dish-card__rating rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div hidden class="rating__value">3.6</div>
+										<div class="rating__counter">12</div>
+									</div>
+									<a href="#" class="dish-card__order-btn">order</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="dish-card">
+							<div class="dish-card__picture-ibg">
+								<picture><source srcset="img/dish/03.webp" type="image/webp"><img src="img/dish/03.jpg" alt="dish"></picture>
+								<a href="#" class="dish-card__share-bnt"></a>
+							</div>
+							<div class="dish-card__content">
+								<h2 class="dish-card__title">
+									Featured Meal
+								</h2>
+								<h3 class="dish-card__subtitle">
+									Served with french fries + drink
+								</h3>
+								<p class="dish-card__description">
+									Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add whopper patty, Add Tender crisp patty and
+									more...
+								</p>
+								<div class="dish-card__btns">
+									<div class="dish-card__rating rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div hidden class="rating__value">3.6</div>
+										<div class="rating__counter">12</div>
+									</div>
+									<a href="#" class="dish-card__order-btn">order</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="dish-card">
+							<div class="dish-card__picture-ibg">
+								<picture><source srcset="img/dish/04.webp" type="image/webp"><img src="img/dish/04.jpg" alt="dish"></picture>
+								<a href="#" class="dish-card__share-bnt"></a>
+							</div>
+							<div class="dish-card__content">
+								<h2 class="dish-card__title">
+									Featured Meal
+								</h2>
+								<h3 class="dish-card__subtitle">
+									Served with french fries + drink
+								</h3>
+								<p class="dish-card__description">
+									Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add whopper patty, Add Tender crisp patty and
+									more...
+								</p>
+								<div class="dish-card__btns">
+									<div class="dish-card__rating rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div hidden class="rating__value">3.6</div>
+										<div class="rating__counter">12</div>
+									</div>
+									<a href="#" class="dish-card__order-btn">order</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="dish-card">
+							<div class="dish-card__picture-ibg">
+								<picture><source srcset="img/dish/05.webp" type="image/webp"><img src="img/dish/05.jpg" alt="dish"></picture>
+								<a href="#" class="dish-card__share-bnt"></a>
+							</div>
+							<div class="dish-card__content">
+								<h2 class="dish-card__title">
+									Featured Meal
+								</h2>
+								<h3 class="dish-card__subtitle">
+									Served with french fries + drink
+								</h3>
+								<p class="dish-card__description">
+									Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add whopper patty, Add Tender crisp patty and
+									more...
+								</p>
+								<div class="dish-card__btns">
+									<div class="dish-card__rating rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div hidden class="rating__value">3.6</div>
+										<div class="rating__counter">12</div>
+									</div>
+									<a href="#" class="dish-card__order-btn">order</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="dish-card">
+							<div class="dish-card__picture-ibg">
+								<picture><source srcset="img/dish/06.webp" type="image/webp"><img src="img/dish/06.jpg" alt="dish"></picture>
+								<a href="#" class="dish-card__share-bnt"></a>
+							</div>
+							<div class="dish-card__content">
+								<h2 class="dish-card__title">
+									Featured Meal
+								</h2>
+								<h3 class="dish-card__subtitle">
+									Served with french fries + drink
+								</h3>
+								<p class="dish-card__description">
+									Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add whopper patty, Add Tender crisp patty and
+									more...
+								</p>
+								<div class="dish-card__btns">
+									<div class="dish-card__rating rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div hidden class="rating__value">3.5</div>
+										<div class="rating__counter">12</div>
+									</div>
+									<a href="#" class="dish-card__order-btn">order</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="page__chefs chefs">
+				<div class="chefs__container">
+					<div class="chefs__title title title--with-underline">
+						<h2 class="title__text">
+							this month's chefs
+						</h2>
+						<div class="title__section-name">
+							chefs
+						</div>
+					</div>
+
+					<div class="chefs__cards">
+						<div class="chef-card">
+							<div class="chef-card__avatar-ibg">
+								<picture><source srcset="img/chefs/card-01/avatar.webp" type="image/webp"><img src="img/chefs/card-01/avatar.jpg" alt="avatar"></picture>
+							</div>
+							<div class="chef-card__about">
+								<div class="chef-card__name">Gregory Flores</div>
+								<div class="chef-card__description">Chef of the cold</div>
+							</div>
+							<div class="chef-card__wide-img-ibg">
+								<picture><source srcset="img/chefs/card-01/wide-image.webp" type="image/webp"><img src="img/chefs/card-01/wide-image.jpg" alt="image"></picture>
+							</div>
+							<div class="chef-card__img-ibg">
+								<picture><source srcset="img/chefs/card-01/image-01.webp" type="image/webp"><img src="img/chefs/card-01/image-01.jpg" alt="image"></picture>
+							</div>
+							<div class="chef-card__img-ibg">
+								<picture><source srcset="img/chefs/card-01/image-02.webp" type="image/webp"><img src="img/chefs/card-01/image-02.jpg" alt="image"></picture>
+							</div>
+						</div>
+
+						<div class="chef-card">
+							<div class="chef-card__avatar-ibg">
+								<picture><source srcset="img/chefs/card-02/avatar.webp" type="image/webp"><img src="img/chefs/card-02/avatar.jpg" alt="avatar"></picture>
+							</div>
+							<div class="chef-card__about">
+								<div class="chef-card__name">Annette Cooper</div>
+								<div class="chef-card__description">Chef of the hot</div>
+							</div>
+							<div class="chef-card__wide-img-ibg">
+								<picture><source srcset="img/chefs/card-02/wide-image.webp" type="image/webp"><img src="img/chefs/card-02/wide-image.jpg" alt="image"></picture>
+							</div>
+							<div class="chef-card__img-ibg">
+								<picture><source srcset="img/chefs/card-02/image-01.webp" type="image/webp"><img src="img/chefs/card-02/image-01.jpg" alt="image"></picture>
+							</div>
+							<div class="chef-card__img-ibg">
+								<picture><source srcset="img/chefs/card-02/image-02.webp" type="image/webp"><img src="img/chefs/card-02/image-02.jpg" alt="image"></picture>
+							</div>
+						</div>
+
+						<div class="chef-card">
+							<div class="chef-card__avatar-ibg">
+								<picture><source srcset="img/chefs/card-03/avatar.webp" type="image/webp"><img src="img/chefs/card-03/avatar.jpg" alt="avatar"></picture>
+							</div>
+							<div class="chef-card__about">
+								<div class="chef-card__name">Greg Fox</div>
+								<div class="chef-card__description">Сhef macro kitchen</div>
+							</div>
+							<div class="chef-card__wide-img-ibg">
+								<picture><source srcset="img/chefs/card-03/wide-image.webp" type="image/webp"><img src="img/chefs/card-03/wide-image.jpg" alt="image"></picture>
+							</div>
+							<div class="chef-card__img-ibg">
+								<picture><source srcset="img/chefs/card-03/image-01.webp" type="image/webp"><img src="img/chefs/card-03/image-01.jpg" alt="image"></picture>
+							</div>
+							<div class="chef-card__img-ibg">
+								<picture><source srcset="img/chefs/card-03/image-02.webp" type="image/webp"><img src="img/chefs/card-03/image-02.jpg" alt="image"></picture>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__recipes recipes">
+				<div class="recipes__container">
+					<div class="recipes__title title title--with-underline">
+						<h2 class="title__text">
+							Recipes From Our Chefs
+						</h2>
+						<div class="title__section-name">
+							recipes
+						</div>
+					</div>
+
+					<div class="recipes__cards">
+						<div class="recipe-card__big">
+							<div class="recipe-card__image-ibg">
+								<picture><source srcset="img/recipes/image-big.webp" type="image/webp"><img src="img/recipes/image-big.jpg" alt="big image"></picture>
+							</div>
+							<a href="#" class="recipe-card__share-btn"></a>
+							<div class="recipe-card__dish-type dish-type">breakfast</div>
+							<div class="recipe-card__date date">05 Jul 2016</div>
+							<div class="recipe-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+							<div class="recipe-card__author">Jason Keller</div>
+							<div class="recipe-card__icons">
+								<div class="recipe-card__views">
+									<div class="recipe-card__view-icon"></div>
+									<div class="recipe-card__view-count">275</div>
+								</div>
+								<div class="recipe-card__messages">
+									<div class="recipe-card__message-icon"></div>
+									<div class="recipe-card__message-count">12</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="recipe-card__small">
+							<div class="recipe-card__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+								tempor incididunt ut
+							</div>
+							<div class="recipe-card__footer">
+								<div class="recipe-card__right-part-footer">
+									<div class="recipe-card__dish-type dish-type">lunch</div>
+									<div class="recipe-card__date date">07 Jan 2016</div>
+								</div>
+								<div class="recipe-card__icons">
+									<div class="recipe-card__views">
+										<div class="recipe-card__view-icon"></div>
+										<div class="recipe-card__view-count">275</div>
+									</div>
+									<div class="recipe-card__messages">
+										<div class="recipe-card__message-icon"></div>
+										<div class="recipe-card__message-count">12</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="recipe-card__small">
+							<div class="recipe-card__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+								dolore magna
+								aliqua
+							</div>
+							<div class="recipe-card__footer">
+								<div class="recipe-card__right-part-footer">
+									<div class="recipe-card__dish-type dish-type">dinner</div>
+									<div class="recipe-card__date date">07 Jan 2016</div>
+								</div>
+								<div class="recipe-card__icons">
+									<div class="recipe-card__views">
+										<div class="recipe-card__view-icon"></div>
+										<div class="recipe-card__view-count">275</div>
+									</div>
+									<div class="recipe-card__messages">
+										<div class="recipe-card__message-icon"></div>
+										<div class="recipe-card__message-count">12</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="recipe-card__small">
+							<div class="recipe-card__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+								tempor incididunt ut
+							</div>
+							<div class="recipe-card__footer">
+								<div class="recipe-card__right-part-footer">
+									<div class="recipe-card__dish-type dish-type">sweet</div>
+									<div class="recipe-card__date date">07 Jan 2016</div>
+								</div>
+								<div class="recipe-card__icons">
+									<div class="recipe-card__views">
+										<div class="recipe-card__view-icon"></div>
+										<div class="recipe-card__view-count">275</div>
+									</div>
+									<div class="recipe-card__messages">
+										<div class="recipe-card__message-icon"></div>
+										<div class="recipe-card__message-count">12</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="page__social social">
+				<div class="social__container">
+					<div class="recipes__title title title--with-underline">
+						<h2 class="title__text">
+							we <span class="title__lowcase-text">in</span> social
+						</h2>
+						<div class="title__section-name">
+							social
+						</div>
+					</div>
+
+					<div class="social__cards">
+						<div class="social-card">
+							<div class="social-card__header">
+								<div class="social-card__social-name">
+									<div class="social-card__icon social-card__icon--twitter"></div>
+									twitter
+								</div>
+								<a class="social-card__follow-btn" href="#">
+									follow us
+								</a>
+							</div>
+							<div class="social-card__content">
+								<div class="social-card__date">
+									24 Jun at 16:20 pm
+								</div>
+								<div data-simplebar class="social-card__text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Lorem
+									ipsum dolor sit amet,
+									consectetur adipiscing
+
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Lorem
+									ipsum dolor sit amet,
+									consectetur adipiscing
+								</div>
+								<div class="social-card__author">
+									@DennisFerguson
+								</div>
+							</div>
+						</div>
+
+						<div class="social-card">
+							<div class="social-card__header">
+								<div class="social-card__social-name">
+									<div class="social-card__icon social-card__icon--instagram"></div>
+									instagram
+								</div>
+								<a class="social-card__follow-btn" href="#">
+									follow us
+								</a>
+							</div>
+							<div class="social-card__wrapper" data-simplebar>
+								<div class="social-card__pictures">
+									<a href="#" class="social-card__picture-ibg">
+										<picture><source srcset="img/social/01.webp" type="image/webp"><img src="img/social/01.jpg" alt="instagram picture"></picture>
+										<span href="" class="social-card__instagram-btn"></span>
+									</a>
+									<a href="#" class="social-card__picture-ibg">
+										<picture><source srcset="img/social/02.webp" type="image/webp"><img src="img/social/02.jpg" alt="instagram picture"></picture>
+										<span href="" class="social-card__instagram-btn"></span>
+									</a>
+									<a href="#" class="social-card__picture-ibg">
+										<picture><source srcset="img/social/03.webp" type="image/webp"><img src="img/social/03.jpg" alt="instagram picture"></picture>
+										<span href="" class="social-card__instagram-btn"></span>
+									</a>
+									<a href="#" class="social-card__picture-ibg">
+										<picture><source srcset="img/social/04.webp" type="image/webp"><img src="img/social/04.jpg" alt="instagram picture"></picture>
+										<span href="" class="social-card__instagram-btn"></span>
+									</a>
+									<a href="#" class="social-card__picture-ibg">
+										<picture><source srcset="img/social/05.webp" type="image/webp"><img src="img/social/05.jpg" alt="instagram picture"></picture>
+										<span href="" class="social-card__instagram-btn"></span>
+									</a>
+									<a href="#" class="social-card__picture-ibg">
+										<picture><source srcset="img/social/06.webp" type="image/webp"><img src="img/social/06.jpg" alt="instagram picture"></picture>
+										<span href="" class="social-card__instagram-btn"></span>
+									</a>
+									<a href="#" class="social-card__picture-ibg">
+										<picture><source srcset="img/social/01.webp" type="image/webp"><img src="img/social/01.jpg" alt="instagram picture"></picture>
+										<span href="" class="social-card__instagram-btn"></span>
+									</a>
+									<a href="#" class="social-card__picture-ibg">
+										<picture><source srcset="img/social/02.webp" type="image/webp"><img src="img/social/02.jpg" alt="instagram picture"></picture>
+										<span href="" class="social-card__instagram-btn"></span>
+									</a>
+									<a href="#" class="social-card__picture-ibg">
+										<picture><source srcset="img/social/03.webp" type="image/webp"><img src="img/social/03.jpg" alt="instagram picture"></picture>
+										<span href="" class="social-card__instagram-btn"></span>
+									</a>
+									<a href="#" class="social-card__picture-ibg">
+										<picture><source srcset="img/social/04.webp" type="image/webp"><img src="img/social/04.jpg" alt="instagram picture"></picture>
+										<span href="" class="social-card__instagram-btn"></span>
+									</a>
+									<a href="#" class="social-card__picture-ibg">
+										<picture><source srcset="img/social/05.webp" type="image/webp"><img src="img/social/05.jpg" alt="instagram picture"></picture>
+										<span href="" class="social-card__instagram-btn"></span>
+									</a>
+									<a href="#" class="social-card__picture-ibg">
+										<picture><source srcset="img/social/06.webp" type="image/webp"><img src="img/social/06.jpg" alt="instagram picture"></picture>
+										<span href="" class="social-card__instagram-btn"></span>
+									</a>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="social-card">
+							<div class="social-card__header">
+								<div class="social-card__social-name">
+									<div class="social-card__icon social-card__icon--facebook"></div>
+									facebook
+								</div>
+								<a class="social-card__follow-btn" href="#">
+									follow us
+								</a>
+							</div>
+							<div class="social-card__content">
+								<div class="social-card__date">
+									26 Jun at 16:20 pm
+								</div>
+								<div data-simplebar class="social-card__text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Lorem
+									ipsum dolor sit amet,
+									consectetur adipiscing Lorem ipsum dolor sit amet, consectetur adipiscing
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+	</div>
+	</main>
+	<footer class="footer">
+		<div class="footer__container">
+			<div class="footer__top">
+				<div class="footer__cards contacts-cards">
+					<div class="contacts-card">
+						<div class="contacts-card__icon _icon-clock"></div>
+						<div class="contacts-card__description">
+							Today 10:00 am - 7:00 pm
+						</div>
+						<div class="contacts-card__title">Working hours</div>
+					</div>
+					<div class="contacts-card">
+						<div class="contacts-card__icon _icon-near_me"></div>
+						<div class="contacts-card__description">
+							Velyka Vasylkivska 100
+						</div>
+						<div class="contacts-card__title">Get Directions</div>
+					</div>
+					<div class="contacts-card">
+						<div class="contacts-card__icon _icon-phone"></div>
+						<div class="contacts-card__description">
+							+38 (063)833 24 15
+						</div>
+						<div class="contacts-card__title">Call Online</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__divider"></div>
+		<div class="footer__container">
+			<div class="footer__bottom">
+				<div class="footer__logo logo"></div>
+				<div class="footer__copyright">
+					© Designed by Yellow Snow. All Rights Reserved
+				</div>
+			</div>
+		</div>
+	</footer>
+	</div>
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+
+	<script src="js/app.min.js?_v=20220706192238"></script>
+</body>
+
+</html>
